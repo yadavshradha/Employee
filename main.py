@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, Column, Integer, String, Float
 from sqlalchemy.orm import sessionmaker, declarative_base, Session
 
 
-DATABASE_URL = "postgresql+psycopg2://postgres:Alpha%40123@localhost:5432/postgres"
+DATABASE_URL = "postgresql+psycopg2://postgres:password@localhost:5432/postgres"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)

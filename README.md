@@ -19,6 +19,6 @@ DATABASE_URL = URL.create(<br>
     password="your_actual_password",  # Enter raw password <br>
     host="localhost",<br>
     port=5432,<br>
-    database="postgres",<br
+    database="postgres",<br>
 )
 

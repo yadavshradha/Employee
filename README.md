@@ -10,8 +10,8 @@ Before running this project on your laptop, please configure your local PostgreS
    ```
 3. *(If running the code as-is without `.env`)*: Make sure your local PostgreSQL `postgres` user password is set to **`password`**, or update line 6 in `main.py` with your own local password before running. **Do not push your personal password to GitHub.**
 
-4.if the above database setup don't work try this 
-5. from sqlalchemy.engine import URL
+4.if the above database setup don't work try this<br>
+5. from sqlalchemy.engine import URL<br>
 
 DATABASE_URL = URL.create(
     drivername="postgresql+psycopg2",

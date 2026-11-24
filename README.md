@@ -13,12 +13,12 @@ Before running this project on your laptop, please configure your local PostgreS
 4.if the above database setup don't work try this<br>
 5. from sqlalchemy.engine import URL<br>
 
-DATABASE_URL = URL.create(
-    drivername="postgresql+psycopg2",
-    username="postgres",
-    password="your_actual_password",  # Enter raw password without %40
-    host="localhost",
-    port=5432,
-    database="postgres",
+DATABASE_URL = URL.create(<br>
+    drivername="postgresql+psycopg2",<br>
+    username="postgres",<br>
+    password="your_actual_password",  # Enter raw password <br>
+    host="localhost",<br>
+    port=5432,<br>
+    database="postgres",<br
 )
 
